@@ -1,0 +1,13 @@
+# Maintainer roster for Athenz
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+maintainers:
+  - project_id: "athenz"
+    org: "AthenZ"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - abvaidya
+          - havetisyan
+          - psasidhar

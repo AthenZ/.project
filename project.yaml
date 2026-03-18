@@ -1,0 +1,70 @@
+# .project metadata for Athenz
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add maturity_log entry with TOC issue URL
+# TODO: Set project_lead GitHub handle
+# TODO: Set cncf_slack_channel
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "athenz"
+name: "Athenz"
+description: "Open source platform for X.509 certificate based service authentication and fine grained access control in dynamic infrastructures"
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+# TODO: Set CNCF Slack channel
+# cncf_slack_channel: "#athenz"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2026-03-18T14:27:29Z"
+    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+
+repositories:
+  - "https://github.com/AthenZ/athenz"
+
+website: "https://www.athenz.io"
+
+artwork: "https://landscape.cncf.io/logos/athenz.svg"
+
+adopters:
+  path: "https://github.com/AthenZ/athenz/blob/main/ADOPTERS.md"
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "AthenZ/athenz"
+
+social:
+  twitter: "https://twitter.com/athenzio"
+
+security:
+  policy:
+    path: "https://github.com/AthenZ/athenz/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/AthenZ/athenz/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/AthenZ/athenz/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/AthenZ/athenz/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/AthenZ/athenz/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Key Management"
+
