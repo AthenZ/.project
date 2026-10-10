@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: cncf/automation/.github/actions/validate-project@979abb1e07fa1b6f2b4e77200f6a698cdd86e59c
+      - uses: cncf/automation/.github/actions/validate-project@625b32f7e2de0e8eaebf46166f08bb6ec330c3cd
         with:
           project_file: 'project.yaml'
 
@@ -30,7 +30,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: cncf/automation/.github/actions/validate-maintainers@979abb1e07fa1b6f2b4e77200f6a698cdd86e59c
+      - uses: cncf/automation/.github/actions/validate-maintainers@625b32f7e2de0e8eaebf46166f08bb6ec330c3cd
         with:
           maintainers_file: 'maintainers.yaml'
           verify_maintainers: 'true'
