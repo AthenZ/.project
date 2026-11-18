@@ -20,7 +20,7 @@ repositories:
 
 website: "https://www.athenz.io"
 
-artwork: "https://landscape.cncf.io/logos/athenz.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/athenz"
 
 adopters:
   path: "https://github.com/AthenZ/athenz/blob/master/ADOPTERS.md"
